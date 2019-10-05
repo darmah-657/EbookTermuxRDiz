@@ -264,7 +264,7 @@ class mt(threading.Thread):
         except KeyboardInterrupt:
             os.sys.exit()
         except:
-            self.a = 8
+            self.a = 7
             os.sys.exit()
         if 'm_sess' in data.url or 'save-device' in data.url:
             self.a = 1
